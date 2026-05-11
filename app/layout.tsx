@@ -1,12 +1,12 @@
-import { Space_Grotesk, Inter } from 'next/font/google';
+import { Space_Grotesk, Sora } from 'next/font/google';
 import './globals.css';
 
-const heading = Space_Grotesk({ subsets: ['latin'], variable: '--font-heading', weight: ['300', '400', '700'] });
-const body = Inter({ subsets: ['latin'], variable: '--font-body' });
+const heading = Space_Grotesk({ subsets: ['latin'], variable: '--font-heading' });
+const body = Sora({ subsets: ['latin'], variable: '--font-body' });
 
 export const metadata = {
-  title: 'Carbon Edge | The New Grid',
-  description: 'Leading Nigeria\'s transition to sustainable energy with premium solar infrastructure.',
+  title: 'Carbon Edge — The New Grid',
+  description: 'Redefining energy independence through high-precision solar arrays.',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

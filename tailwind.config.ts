@@ -5,16 +5,21 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "var(--primary)",
-        secondary: "var(--secondary)",
-        accent: "var(--accent)",
+        primary: "#007AFF",
+        secondary: "#1E293B",
+        accent: "#00F2FF",
+        neutral: {
+          dark: "#000000",
+          light: "#FFFFFF",
+          muted: "#A1A1AA"
+        }
       },
       fontFamily: {
         heading: ["var(--font-heading)"],
-        sans: ["var(--font-body)"],
-      },
-    },
+        sans: ["var(--font-body)"]
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };
 export default config;
